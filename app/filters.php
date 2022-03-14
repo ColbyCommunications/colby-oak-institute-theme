@@ -141,3 +141,28 @@ add_action( 'customize_register', function ( $wp_customize ) {
         ),
     ));
 });
+
+// /**
+//  * Add search box to main nav.
+//  *
+//  * @param array $items Nav items.
+//  * @param array $args  Arguments.
+//  */
+// add_filter( 'wp_nav_menu_items', function ( $items, $args ) {
+//     if ( 'primary' === $args->menu ) {
+//         $search = '<li class="menu-item menu-item-no-children icon-search search-item">'
+//                     . '<a href="#" class="search-toggle"><span class="screen-reader-text">Search</span></a>'
+//                         . '<div class="header-search">'
+//                             . '<form role="search" method="get" action="/">'
+//                             . '<label>'
+//                                 . '<span class="screen-reader-text">' . _x( 'Search for:', 'label' ) . '</span>'
+//                                 . '<input type="search" class="search-field" placeholder="' . esc_attr_x( 'Search Site...', 'placeholder' ) . '" value="' . get_search_query() . '" name="s" title="' . esc_attr_x( 'Search for Members:', 'label' ) . '" />'
+//                             . '</label>'
+//                             . '<input type="submit" class="search-submit" value="' . esc_attr_x( 'Search', 'submit button' ) . '" />'
+//                             . '</form>'
+//                         . '</div>'
+//                     . '</li>';
+//         $items  = $search . $items;
+//     }
+//     return $items;
+// }, 10, 2 );

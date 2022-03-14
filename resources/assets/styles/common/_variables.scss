@@ -2,6 +2,7 @@
 @import '~bootstrap/scss/functions';
 
 $colby-blue: #002878;
+$colby-orange: #d06544;
 $navbar-text-color: #fff;
 
 $theme-colors: (
@@ -24,3 +25,8 @@ $dropdown-link-hover-color: $colby-blue !default;
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
+
+// Breakpoints
+$desktop_media: "(min-width: 971px)";
+$tablet_media: "(min-width: 768px) and (max-width: 970px)";
+$phone_media: "(max-width: 767px)";

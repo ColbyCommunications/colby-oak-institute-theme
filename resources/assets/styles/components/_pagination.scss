@@ -1,0 +1,26 @@
+
+.pagination {
+	text-align: center;
+	ul.page-numbers {
+		list-style: none;
+		padding: 20px 0 0 0;
+		li {
+			display: inline-block;
+			line-height: 2em;
+			margin-bottom: 1em;
+			margin-right: 10px;
+			a {
+				padding: 10px;
+				border: solid 1px $colby-blue;
+				@include transition(all 0.25s ease-in-out);
+				.selected,
+				&:hover {
+					background-color: rgba($colby-blue, 0.4);
+				}
+			}
+			
+			&:first-child,
+			&:last-child {}
+		}
+	}
+}

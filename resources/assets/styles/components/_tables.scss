@@ -1,0 +1,30 @@
+
+.tablepress {
+    tfoot th, thead th {
+        background-color: #B7D5F1;
+    }
+    .sorting:hover, .sorting_asc, .sorting_desc {
+        background-color: #002878;
+        color: #ffffff;
+    }
+}
+
+.dataTables_wrapper label select,
+.dataTables_wrapper .dataTables_filter input {
+    border: solid 1px #999999;
+    border-radius: 4px;
+}
+
+.dataTables_paginate a.paginate_button {
+    background-color: #D06544;
+    border: solid 2px #E46E46;
+    padding: 4px 30px;
+    color: #ffffff !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    &:before,
+    &:after {
+        display: none;
+    }
+}
