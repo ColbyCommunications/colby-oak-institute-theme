@@ -16,6 +16,7 @@ module.exports = {
                 'colby-purple': '#6a3e90',
                 'colby-light-green': '#C5E86C',
                 'colby-warm-red': '#d95900',
+                'colby-cah-orange': '#d06544',
             },
             fontFamily: {
                 sans: ['libre-franklin', 'Arial', 'sans-serif'],
